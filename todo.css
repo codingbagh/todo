@@ -1,0 +1,139 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(227, 83, 107);
+  color: white;
+  height: 100vh;
+  padding: 40px;
+}
+
+body {
+  overflow: hidden;
+}
+input {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 5px 10px;
+
+}
+
+#add {
+  width: 350px;
+  font-size: 30px;
+  color: tomato;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 5px 15px;
+  transition: background 500ms ease-in-out;
+  border-color: white;
+  font-weight: bolder;
+}
+
+#add:hover {
+  background-color: blueviolet;
+  color: white;
+  transition: background 500ms ease-in-out;
+  border-style: groove;
+  border-color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.items {
+  background-color: rgb(223, 219, 219);
+  height: 25em;
+  width: 500px;
+  box-shadow: 0px 0px 20px rgb(194, 74, 74), 10px 0px 20px rgb(221, 47, 47);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.list {
+  color: rgb(227, 26, 26);
+  font-size: 1.5em;
+  font-weight: 500;
+  min-width: 200px;
+margin-top: 20px;
+  text-align: center;
+  background-color: rgb(244, 70, 99);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.remove {
+  justify-self: flex-end;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color: red;
+  cursor: pointer;
+  padding: 2px 20px;
+  transition: all 400ms ease-in-out;
+ width: fit-content;
+ font-size: 1em;
+}
+
+.remove:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+ 
+
+}
+
+.Text {
+  position: absolute;
+  font-size: 1.1em;
+
+  bottom: 20px;
+  display: flex;
+
+  justify-content: center;
+text-align: center;
+  width: 100vw;
+}
+
+.Done{
+    color: rgb(227, 26, 26);
+  font-size: 1.5em;
+  font-weight: 500;
+  min-width: 200px;
+text-decoration: line-through;
+  text-align: center;
+  background-color: rgb(244, 70, 99);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  opacity: 0.7;
+  transition:all 400ms ease-in-out;
+}
+
+
+.text{
+    text-shadow: 0px 40px 40px rgb(0, 0, 0);
+    color: white;
+}
